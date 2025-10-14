@@ -1,7 +1,10 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // for PPR (Partial Prerendering) add this line to the next.config.ts file
+  // experimental: {
+  //   ppr: "incremental",
+  // },
 };
 
 export default nextConfig;
